@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.font-size {
+    font-size: 13px;
+}
+
+.font i{
+   font-size:18px;
+  
+}
+.font ul li a:hover{
+    background-color:black;
+    color:white !important;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.menulist ul li a:hover {
+    background-color: #9e6b22;
+    color: white !important;
+}
+.menulist ul li .active{
+    background-color: #9e6b22;
+    color: #f1f1f1 !important;
+}
+.dropdown.dropdown-menu{
+    display:none;
+}
+.dropdown:hover >.dropdown-menu{ 
+    display:block;
+}
+/* .dropend:hover > .dropdown-menu{
+    display:block;
+} */
+.dropend>.dropdown-menu{   
+     position: absolute;
+     top: 0;
+     left: 100%;
+}
+.dropdown-menu a{
+    padding-top:10px;
+}
+/* .submenu{
+    right: -151px;
+    top: -1px;
+
+} */
+ .dropdown-menu{
+    font-size:13px !important;
+    background-color:#f3b45b;
+   text-transform: uppercase;
+ }
+ .dropdown-menu a {
+   font-weight:700;
+ }
+.menu{
+    top: -100px;
+    right: 0;
+}
+.revenu img{
+    width:100px;
+}
+.acceplity li{
+    width:50px;
+    text-align: center;
+    background-color: white;
+    
+}
+.acceplity{
+   border: none;
+   background: transparent;
+
+}
+.acc:hover .acceplity{
+    display:block;
+}
+
+.box-1{
+    width:100%;
+    background-color:#f1f1f1;
+    margin-top:30px;
+    
+}
+/* .nav-tabs li :focus{
+    background-color: #077dbb !important;
+    color:rgb(252, 246, 246) !important;
+} */
+.phototab .active{
+    background-color: #077dbb !important;
+    color:rgb(0, 0, 0) !important;
+}
+.phototab .active i{
+    color:rgb(0, 0, 0) !important;
+}
+.wc a{
+    color: white !important;
+}
+table th{
+    display: block;
+    margin-top:20px;
+}
+.topimage{
+    width: 100%;
+    height:125px;
+    object-fit: cover;
+}
+.tab3 .nav-item .active{
+    background-color: #ffffff !important ;
+}
+
+@media screen and (max-width:639px){
+    .medi li{
+       width:100%;
+       
+    }
+    .logomedia img{
+        height:20px;
+        width:50px;
+    }
+    .pr.pa{
+           height:40px;
+           width: 40px;;
+    }   
+}
+@media  screen and (min-width:900px){
+        .box-1{
+            width:30%;
+        }
+}
